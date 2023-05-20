@@ -1,11 +1,8 @@
 import logging
-
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, Application
 import pandas as pd
-import random
-
-TELEGRAM_BOT_TOKEN = "5895562935:AAFzU-2kXJMf-IhuQnYdBzOmV3yoBtXXw_g"
+from Token import TELEGRAM_BOT_TOKEN
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
