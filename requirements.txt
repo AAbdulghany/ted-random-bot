@@ -1,0 +1,5 @@
+python-telegram-bot
+pandas~=1.5.3
+openpyxl
+requests~=2.28.2
+beautifulsoup4~=4.11.2
